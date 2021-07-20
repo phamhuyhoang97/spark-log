@@ -1,0 +1,30 @@
+{
+  "type": "record",
+  "name": "sparkQuery",
+  "fields": [
+    {
+      "name": "sparkApp",
+      "type": "string"
+    },
+    {
+      "name": "sessionId",
+      "type": "string"
+    },
+    {
+      "name": "groupId",
+      "type": "string"
+    },
+    {
+      "name": "ip",
+      "type": "string"
+    },
+    {
+      "name": "statement",
+      "type": "string"
+    },
+    {
+      "name": "startTime",
+      "type": "string"
+    }
+  ]
+}

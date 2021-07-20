@@ -1,0 +1,54 @@
+{
+  "type": "record",
+  "name": "sparkResultSql",
+  "fields": [
+    {
+      "name": "sparkApp",
+      "type": "string"
+    },
+    {
+      "name": "sessionId",
+      "type": "string"
+    },
+    {
+      "name": "groupId",
+      "type": "string"
+    },
+    {
+      "name": "ip",
+      "type": "string"
+    },
+    {
+      "name": "statement",
+      "type": "string"
+    },
+    {
+      "name": "state",
+      "type": "string"
+    },
+    {
+      "name": "plan",
+      "type": "string"
+    },
+    {
+      "name": "error",
+      "type": "string"
+    },
+    {
+      "name": "duration",
+      "type": "string"
+    },
+    {
+      "name": "durationFormatted",
+      "type": "string"
+    },
+    {
+      "name": "startTime",
+      "type": "string"
+    },
+    {
+      "name": "finishTimeStamp",
+      "type": "string"
+    }
+  ]
+}
